@@ -42,7 +42,7 @@ function App() {
       <Router>
         <Navbar title="Textutils" mode={mode} modeison={modeison} changebtntext={changebtntext} changebtncolor={changebtncolor} />
         <div className="container my-4">
-
+          
           <Routes>
             <Route exact path="/" element={ <Textform heading="Enter your text to analyze" mode={mode} />} />
             <Route exact path="/about" element={<Darkmode mode={mode}/>} />
