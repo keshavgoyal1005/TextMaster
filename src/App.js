@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar title="TextMaster" mode={mode} modeison={modeison} changebtntext={changebtntext} changebtncolor={changebtncolor} />
+        <Navbar title="Textutils" mode={mode} modeison={modeison} changebtntext={changebtntext} changebtncolor={changebtncolor} />
         <div className="container my-4">
 
           <Routes>
